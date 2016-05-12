@@ -9,19 +9,15 @@ grunt dev:admin
 
 #### 启动的任务
 
-cssmin:admin
-
-将使用到的CSS文件打包成一个单独的vendor.css，便于节省页面打开时间
+* cssmin:admin将使用到的CSS文件打包成一个单独的vendor.css，便于节省页面打开时间
 ![打包CSS](./images/2.png)
 
-replace:dev
-
-替换`index.html`文件中的代码进入开发模式（启动livereload，JS文件无缓存）
+* replace:dev替换`index.html`文件中的代码进入开发模式（启动livereload，JS文件无缓存）
 
 
-sass
+* sass
 
-将SASS文件编译打包成单独的文件`main.css`
+将`sass`文件编译打包成单独的文件`main.css`
 
 
 autoprefixer 
